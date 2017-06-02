@@ -1,0 +1,27 @@
+{
+    "eventFrequency": 100,
+    "varyEventFrequency": true,
+    "repeatWorkflow": true,
+    "timeBetweenRepeat": 50,
+    "varyRepeatFrequency": true,
+    "steps": [{
+            "config": [{
+		        "date": "nowTimestamp()",
+            		"hotel_id": "integer(1,971478)",
+			"age": "integer(18,90)",
+			"username": "admin",
+            		"location": "double(3.0,10.0)",
+			"cleanliness": "double(3.0,10.0)",
+			"confort": "double(3.0,10.0)",
+			"installations": "double(3.0,10.0)",
+			"personal": "double(3.0,10.0)",
+			"wifi": "double(3.0,10.0)",
+			"valueMoney": "double(3.0,10.0)",
+			"lang": "es",
+			"comment": "random('Hotel encantador. Personal muy amable. Baño amplio y cama cómoda. Barrio Tranquilo','Buen hotel. Algo de ruido en las habitaciones. Baño bueno. Desayuno normal. Personal de recepción muy amable y resolvió todas nuestras dudas','Hotel normal. Buena cama pero baño pequeño. Recepcionista diligente.','Hotel mediocre. Cama sucia. Baño pequeño. El barrio da miedo. El tipo de la recepción era muy borde','No es centrico pero hay dos paradas muy cerca que hace que puedas moverte muy rapido a las zonas de interes','El Hotel está muy bien, un poco caro pero cumple con lo pagado. El desayuno buenísimo aunque también algo caro. La única pega es que está alejado del centro y hay que ir en tranvía siempre a la ciudad. En las inmediaciones del Hotel no hay ningún servicio. Tiene parking propio. Si tuviera que volver no elegiría este Hotel por la lejanía del centro. Por el resto el Hotel es fantástico aunque demasiado lujoso para mis intereses','Moderno. Jovial. Limpio. Excelente instalaciones a pasos de un tram que te lleva al centro en unos minutos! El mejor precio y lo mejor que se ofrece! volveria definitivamente')"
+					}
+            ],
+            "duration": 0
+        }]
+}
+
